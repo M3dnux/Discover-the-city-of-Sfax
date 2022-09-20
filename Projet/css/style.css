@@ -1,0 +1,191 @@
+/* General */
+body{
+	background-color: #000;
+	color: #fff;
+	font-family: Arial, Helvetice, sans-serif;
+	font-size: 20px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	background-image: url('../image/green.jpg');
+	margin: auto;
+	overflow: hidden;
+	background-position: right;
+	text-align: center;
+}
+
+#main-header{
+	float: left;
+	width: 30%;
+}
+
+#main-header h1{
+	font: 30px solid ,Arial;
+	padding-left: 100px;
+}
+
+#navbar{
+	float: right;
+	width: 70%;
+}
+
+#navbar li{
+	list-style: none;
+	display: inline;
+}
+
+#navbar a{
+	text-decoration: none;
+	color: #fff;
+	font:25px solid ,Arial;
+	padding-left: 100px;
+}
+
+#main-section{
+	background-image: url('../image/main.jpg');
+	background-repeat: no-repeat;
+	min-height:415px;
+	overflow: hidden;
+}
+
+#main-section h1{
+	font: 50px solid ,Arial;
+	text-align: center;
+}
+
+#main-footer{
+	background-image: url('../image/green.jpg');
+	background-position: right;
+	text-align: center;
+	overflow: hidden;
+}
+
+@media(max-width: 600px){
+	#main-header{
+		width: 100%;
+		float: none;
+	}
+
+	#navbar{
+		width: 100%;
+		float: none;
+	}
+
+	#main-header h1{
+	padding-left: 0;
+    }
+
+    #navbar a{
+	padding-left: 0;
+	padding: 5px;
+    }
+
+    #main-article video{
+	width: auto;
+    height: auto;
+    }
+}
+/* Accueil*/
+#main-article h3, p, a{
+	padding-left: 15px;
+}
+
+#main-article a{
+	color: #fff;
+}
+
+#main-article a:hover{
+	color: red;
+}
+
+#main-article a:active{
+	color: yellow;
+}
+
+#main-article video{
+	width: 100%;
+	margin-top: 10px;
+}
+/* Lieu */
+table{
+	margin: 25px;
+	border: 3px solid;
+	border-radius: 15px;
+	background-color: #ccc;
+	color: #000;
+}
+
+.note{
+	color: blue;
+}
+
+table .ls{
+	background-color: #000;
+	color: #fff;
+	padding: 5px;
+	text-decoration: none;
+	margin: 5px;
+}
+
+table .ls:hover{
+	background-color: green;
+}
+
+table .ls:active{
+	color: yellow;
+}
+
+.img img{
+	width: 50px;
+}
+/* Contact */
+#main-form{
+	text-align: center;
+	padding-top: 20px;
+	border: 3px solid #fff;
+	margin: 20px;
+	background-color: #ccc;
+	color: #000;
+}
+
+#main-form label{
+	padding-top: 20px;
+}
+
+#main-form textarea, input{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+#main-form textarea{
+	padding: 25px;
+}
+
+#contact{
+	margin: 50px;
+}
+
+.f li{
+	list-style-image: url('../image/1.jpg');
+}
+
+.i li{
+	list-style-image: url('../image/2.jpg');
+}
+
+#contact a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#contact a:hover{
+	color: red;
+}
+
+#contact a:active{
+	color: yellow;
+}
